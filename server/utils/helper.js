@@ -12,6 +12,7 @@ const emailValidator = (req, res, next) => {
   } else {
     next();
   }
+  
 };
 
 function generateObjectId() {
