@@ -13,12 +13,6 @@ const apollo_server_1 = new ApolloServer({
     },
 });
 
-// Good: Does not have 'schemaDirectives'
-//ok: schema-directives
-const apollo_server_3 = new ApolloServer({
-    typeDefs,
-    resolvers,
-});
 
 const emailValidator = (req, res, next) => {
   const { email } = req.body;
