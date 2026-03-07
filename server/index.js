@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const express = require('express');
-const app = express();
+const app = express(); // testing
 const http = require('http');
 const server = http.createServer(app);
 const HTTP_PORT = process.env.PORT || 4000;
