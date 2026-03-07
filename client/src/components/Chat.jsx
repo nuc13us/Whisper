@@ -230,7 +230,7 @@ const Chat = () => {
 				playNotification('newMessage');
 				createBrowserNotification('You received a new message on Whisper', decryptedMessage);
 			} catch (error) {
-				console.error(`Could not decrypt message: ${error.message}`, error);
+				console.error(`Could not decrypt message: ${error.message}`, error); // flag in semgrep scan
 			}
 		},
 		[cryptoKey]
