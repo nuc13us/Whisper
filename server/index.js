@@ -14,7 +14,7 @@ const io = new Server(server, {
   cors: { origin: '*' },
   reconnectionAttempts: 5,
 });
-const { init } = require('./utils/lib');
+const { init } = require('./utils/lib'); // testing
 
 mongoose.set('strictQuery', false);
 mongoose
