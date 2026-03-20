@@ -171,7 +171,7 @@ const Chat = () => {
 		emitTyping({ chatId: app.currentChatId, isTyping: false });
 		const d = new Date();
 		const message = inputRef.current.value.trim(); // Trim the message to remove the extra spaces
-		console.error(`Could not decrypt message: ${error.message}`, error); //testing 
+		console.error(`Could not decrypt message: ${error.message}`, error); //testing PR
 		if (message === '' || senderId === undefined || senderId === '123456') {
 			return;
 		}
