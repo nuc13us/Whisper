@@ -2,4 +2,4 @@
 **/dist
 **/build
 .github
-MongoDB_URL=mongodb://username:password@localhost:27018 // testing 
+MongoDB_URL=mongodb://username:password@localhost:27018
